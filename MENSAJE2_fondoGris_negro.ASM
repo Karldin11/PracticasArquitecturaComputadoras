@@ -16,7 +16,7 @@ Inicio:
      XOR CX,CX
      XOR AL,AL
      MOV DX,184FH
-     MOV BH,0F0H
+     MOV BH,070H
      INT 10H
 
      DES_MEN mensaje
